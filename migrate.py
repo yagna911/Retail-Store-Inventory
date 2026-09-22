@@ -199,3 +199,4 @@ if __name__ == "__main__":
     
     # To reset the database (uncomment if needed)
     migration.reset_database()
+    
