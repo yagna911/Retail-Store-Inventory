@@ -35,3 +35,4 @@ class CustomerManager:
         cursor.execute("DELETE FROM customers WHERE id=?", (customer_id,))
         conn.commit()
         conn.close()
+        
